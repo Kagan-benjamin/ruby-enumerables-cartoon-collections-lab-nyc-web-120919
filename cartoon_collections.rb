@@ -14,7 +14,7 @@ end
 
 def find_the_cheese(array)
   array.find do |cheese|
-  
+  cheese_types.include
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
